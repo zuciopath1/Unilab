@@ -1,0 +1,13 @@
+@media (max-width:840px){
+    .header{
+        padding: 25px 60px !important;
+    }
+}
+@media (max-width:768px){
+    .navbar{
+        display: none !important;
+    }
+    .hamburger{
+        display: block !important;
+    }
+}

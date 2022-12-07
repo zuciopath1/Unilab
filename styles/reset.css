@@ -51,3 +51,6 @@ table {
 *::after {
   box-sizing: border-box;
 }
+a, u {
+	text-decoration: none;
+  }
