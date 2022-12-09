@@ -1,3 +1,11 @@
+@media (max-width:940px){
+    .discover-country{
+        font-size: 60px !important;
+    }
+    .slide-price{
+        left: 41% !important;
+    }
+}
 @media (max-width:840px){
     .header{
         padding: 25px 60px !important;
@@ -9,5 +17,48 @@
     }
     .hamburger{
         display: block !important;
+    }
+    .discover-country{
+        font-size: 60px !important;
+    }
+}
+@media (max-width:600px){
+    .slider-main-title{
+        left: 23% !important;
+    }
+    .discover-country{
+        font-size: 50px !important;
+    }
+    .slide-price{
+        left: 37% !important;
+    }
+    .carousel-button{
+        font-size: 3rem !important;
+    }
+    .secondery-title{
+        font-size: 17px;
+    }
+}
+@media (max-width:320px){
+    .discover-country{
+        font-size: 25px !important;
+    }
+    .slide-price-a{
+       font-size: 12px !important;
+    }
+    .carousel-button{
+        font-size: 1rem !important;
+    }
+    .slider-secondery-title{
+        bottom: 40% !important;
+    }
+    .secondery-title{
+      font-size: 9px !important;
+    }
+    .price-bg{
+        top: 30% !important;
+    }
+    .slide-price{
+        top: 34% !important;
     }
 }

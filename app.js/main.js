@@ -47,3 +47,15 @@ buttons.forEach(button => {
 })
 // 
 // 
+
+const modal = document.querySelector('.modal');
+const modalBtn = document.querySelector('.modalBtn');
+
+modalBtn.addEventListener('click', showModal);
+
+function showModal() {
+  document.querySelector('.modal').style.display = "block";
+}
+function removeModal() {
+  document.querySelector('.modal').style.display = "none";
+}
