@@ -25,7 +25,7 @@
     position: fixed;
     transform: translateY(-200%);
     transition: transform 0.3s;
-    top: 65px;
+    top: 85px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -116,11 +116,17 @@
     right: 1rem;
   }
   /*  */
-  .price-bg{
+  .price-bg-abslt{
     position: absolute;
-    top: 24%;
-    left: 49%;
-    transform: translate(-50%, -50%);
+    z-index: 1;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .price-bg{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
     max-width: 278px;
     z-index: 1;
 }
@@ -129,10 +135,11 @@
     z-index: 1;
 }
 .slide-price{
-    left: 44%;
-    top: 22%;
+    left: 25%;
+    top: 50%;
     position: absolute;
     z-index: 1;
+    transform: translateY(-50%);
 }
 .slide-price-a{
     color: #006CD1;
@@ -207,6 +214,7 @@
     cursor: pointer;
     width: 100%;
 }
+/* MODAL */
 .modal{
     position: fixed;
     z-index: 1;
@@ -243,4 +251,44 @@
     text-transform: uppercase;
     font-size: 2rem;
     color: aliceblue;
+}
+/* VIDEO-TOUR */
+.video-tour-section{
+    position: relative;
+}
+.video-tour-section > img{
+    width: 100%;
+}
+.video-tour-title{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+.video-tour-title > h3{
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+.video-tour-title > h2{
+    font-size: 2rem;
+    color: white;
+    text-transform: capitalize;
+    margin: 10px 0 0;
+}
+.image-cover{
+    position: absolute;
+    padding-top: 25px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0 0 0 / 80%);
+}
+.entitie{
+    color: white;
+    text-align: center;
 }

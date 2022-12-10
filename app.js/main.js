@@ -46,16 +46,39 @@ buttons.forEach(button => {
   })
 })
 // 
-// 
+//
 
 const modal = document.querySelector('.modal');
 const modalBtn = document.querySelector('.modalBtn');
 
+
+// const bkContEle = document.querySelectorAll('.booking-container'); // Get all container in an array
+
+// const getTextEle = bkContEle[3].getElementsByClassName('modal-text')[0];
+
+// const txt = document.createTextNode("Changin text even a more secure way to protect from XSS attacks");
+// getTextEle.replaceWith(txt);
+
+
+
 modalBtn.addEventListener('click', showModal);
+modal.addEventListener('click', removeModal)
+
+
+
+document.addEventListener('click', function (multimodal) {
+  if ( multimodal.target.classList.contains( 'modalBtn' ) ) {
+    showModal();
+  }
+  if ( multimodal.target.classList.contains( 'modal' ) ) {
+    removeModal();
+  }
+}, false);
 
 function showModal() {
   document.querySelector('.modal').style.display = "block";
 }
+
 function removeModal() {
   document.querySelector('.modal').style.display = "none";
 }

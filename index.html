@@ -45,32 +45,32 @@
                 <i class="menuIcon material-icons">menu</i>
                 <i class="closeIcon material-icons">close</i>
               </button>
+              <div class="burgerMenu">
+                <ul class="burger-bar">
+                    <li>
+                        <a class="burgeItems" href="#">
+                            home
+                        </a>
+                    </li>
+                    <li>
+                        <a class="burgerItems" href="#">
+                            about us
+                        </a>
+                    </li>
+                    <li>
+                        <a class="burgerItems" href="#">
+                            our services
+                        </a>
+                    </li>
+                    <li>
+                        <a class="burgerItems" href="#">
+                            tour package
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
     </header>
-    <div class="burgerMenu">
-        <ul class="burger-bar">
-            <li>
-                <a class="burgeItems" href="#">
-                    home
-                </a>
-            </li>
-            <li>
-                <a class="burgerItems" href="#">
-                    about us
-                </a>
-            </li>
-            <li>
-                <a class="burgerItems" href="#">
-                    our services
-                </a>
-            </li>
-            <li>
-                <a class="burgerItems" href="#">
-                    tour package
-                </a>
-            </li>
-        </ul>
-    </div>
     <!-- CAROUSEL -->
     <section>
         <div class="carousel" data-carousel>
@@ -87,14 +87,18 @@
               <img src="https://source.unsplash.com/ndN00KmbJ1c" alt="Nature Image #3">
             </li>
           </ul>
-          <div class="price-bg">
-            <img src="images/slider/price-bg.png" alt="price-bg">
-        </div>
-        <div class="slide-price">
-            <h4>
-                <a class="slide-price-a" href="#">from $199/person</a>
-            </h4>
-        </div>
+          <div class="price-bg-abslt">
+            <div class="price-bg">
+                <img src="images/slider/price-bg.png" alt="price-bg">
+                <!--  -->
+                <div class="slide-price">
+                    <h4>
+                        <a class="slide-price-a" href="#">from $199/person</a>
+                    </h4>
+                </div>
+            </div>
+          </div>
+        
         <div class="slider-main-title">
             <h1>
                 <a  class="discover-country" href="#">discover greece</a>
@@ -128,25 +132,21 @@
                 </a>
             </p>
         </div>
-        <!-- TRAVEL OPTIONS -->
+        <!-- TRAVEL OPTIONS MODAL -->
         <div class="travel-options-main-cont">
             <!-- container1 -->
             <div class="booking-container">
                 <div class="airplane">
-                    <img class="modalBtn" onclick="showModal()" src="/images/travel photos/airplane.png" alt="airplane">
+                    <img class="modalBtn" src="/images/travel photos/airplane.png" alt="airplane">
                 </div>
-                <div class="modal" onclick="removeModal()">
+                <div class="modal" >
                     <div class="modal-content">
                         <img src="/images/travel photos/airplane.png" alt="airplane">
-                        <h3>
-                            <a class="modal-title" href="#">
                                <h3>
                         <a class="modal-title" href="#">
                             flight booking
                         </a>
                     </h3>
-                            </a>
-                        </h3>
                     <p>
                         <a class="modal-text" href="#">
                         Lorem Ipsum is simply dummy text of the 
@@ -159,13 +159,13 @@
             <!-- container 2 -->
             <div class="booking-container">
                 <div class="airplane">
-                    <img class="modalBtn" onclick="showModal()" src="/images/travel photos/airplane.png" alt="airplane">
+                    <img class="modalBtn"  src="/images/travel photos/resort.png" alt="airplane">
                 </div>
-                <div class="modal" onclick="removeModal()">
+                <div class="modal" >
                     <div class="modal-content">
                         <img src="/images/travel photos/resort.png" alt="airplane">
                         <h3>
-                            <a class="modal-titlee" href="#">
+                            <a class="modal-title" href="#">
                                 hotel and resort booking
                             </a>
                         </h3>
@@ -181,11 +181,11 @@
             <!-- container3 -->
             <div class="booking-container">
                 <div class="airplane">
-                    <img class="modalBtn" onclick="showModal()" src="/images/travel photos/airplane.png" alt="airplane">
+                    <img class="modalBtn"  src="/images/travel photos/family-trip.png" alt="airplane">
                 </div>
-                <div class="modal" onclick="removeModal()">
+                <div class="modal" >
                     <div class="modal-content">
-                        <img src="/images/travel photos/airplane.png" alt="airplane">
+                        <img src="/images/travel photos/family-trip.png" alt="airplane">
                         <h3>
                             <a class="modal-title" href="#">
                                 flight booking
@@ -203,11 +203,11 @@
             <!-- container4 -->
             <div class="booking-container">
                 <div class="airplane">
-                    <img class="modalBtn" onclick="showModal()" src="/images/travel photos/airplane.png" alt="airplane">
+                    <img class="modalBtn"  src="/images/travel photos/cruise.png" alt="airplane">
                 </div>
-                <div class="modal" onclick="removeModal()">
+                <div class="modal" >
                     <div class="modal-content">
-                        <img src="/images/travel photos/airplane.png" alt="airplane">
+                        <img src="/images/travel photos/cruise.png" alt="airplane">
                         <h3>
                             <a class="modal-title" href="#">
                                 flight booking
@@ -215,8 +215,7 @@
                         </h3>
                     <p>
                         <a class="modal-text" href="#">
-                        Lorem Ipsum is simply dummy text of the 
-                        printing and typesetting industry. Lorem.
+                        crap
                     </a>
                     </p>
                     </div>
@@ -225,11 +224,11 @@
             <!-- container5 -->
             <div class="booking-container">
                 <div class="airplane">
-                    <img class="modalBtn" onclick="showModal()" src="/images/travel photos/airplane.png" alt="airplane">
+                    <img class="modalBtn" src="/images/travel photos/fire-camp.png" alt="airplane">
                 </div>
-                <div class="modal" onclick="removeModal()">
+                <div class="modal" >
                     <div class="modal-content">
-                        <img src="/images/travel photos/airplane.png" alt="airplane">
+                        <img src="/images/travel photos/fire-camp.png" alt="airplane">
                     <p>
                         <a class="modal-text" href="#">
                         Lorem Ipsum is simply dummy text of the 
@@ -239,14 +238,14 @@
                     </div>
                 </div>
             </div>
-            <!-- container 5 -->
+            <!-- container 6 -->
             <div class="booking-container">
                 <div class="airplane">
-                    <img class="modalBtn" onclick="showModal()" src="/images/travel photos/airplane.png" alt="airplane">
+                    <img class="modalBtn" src="/images/travel photos/corporate-holidays.png" alt="airplane">
                 </div>
-                <div class="modal" onclick="removeModal()">
+                <div class="modal" >
                     <div class="modal-content">
-                        <img src="/images/travel photos/airplane.png" alt="airplane">
+                        <img src="/images/travel photos/corporate-holidays.png" alt="airplane">
                         <h3>
                             <a class="modal-title" href="#">
                                 flight booking
@@ -254,8 +253,8 @@
                         </h3>
                     <p>
                         <a class="modal-text" href="#">
-                        Lorem Ipsum is simply dummy text of the 
-                        printing and typesetting industry. Lorem.
+                            Lorem Ipsum is simply dummy text of the 
+                            printing and typesetting industry. Lorem.
                     </a>
                     </p>
                     </div>
@@ -263,6 +262,16 @@
             </div>
             <!--  -->
         </div>
+      </section>
+      <!--  -->
+      <section class="video-tour-section">
+            <img src="/images/travel photos/tour-video-bg.webp" alt="palm beach">
+            <div class="image-cover"></div>
+        <div class="video-tour-title">
+            <h3>discover</h3>
+            <h2>watch our video tour</h2>
+            <p class="entitie">&#8764;</p>
+       </div>
       </section>
     <script src="app.js/main.js"></script>
 </body>
