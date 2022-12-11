@@ -231,6 +231,7 @@
 .modal-content{
     margin: auto;
     width: 50%;
+    text-align: center;
 }
 .modal-content > img{
     width: 100%;
@@ -241,9 +242,9 @@
 .modal-content > p{
     margin: 12px 0 0 25px;
 }
-.modal-content > h3{
+/* .modal-content > h3{
     margin: 10px 0 0 25%;
-}
+} */
 .modal-text {
     color: skyblue;
     font-size: 2rem;

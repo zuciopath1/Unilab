@@ -76,9 +76,11 @@ document.addEventListener('click', function (multimodal) {
 }, false);
 
 function showModal() {
-  document.querySelector('.modal').style.display = "block";
+  document.querySelector('.modal').style.display = "flex";
 }
 
 function removeModal() {
   document.querySelector('.modal').style.display = "none";
 }
+
+
