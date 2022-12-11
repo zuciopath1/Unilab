@@ -26,9 +26,6 @@
 }
 /* MEDIA 600PX */
 @media (max-width:600px){
-    .slider-main-title{
-        left: 23% !important;
-    }
     .discover-country{
         font-size: 50px !important;
     }

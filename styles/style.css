@@ -149,7 +149,8 @@
 .slider-main-title{
     position: absolute;
     top: 45%;
-    left: 30%;
+    left: 50%;
+    transform: translate(-50%);
     z-index: 1;
 }
 .discover-country{
@@ -291,4 +292,45 @@
 .entitie{
     color: white;
     text-align: center;
+}
+/* COUNTER ICONS SECTION */
+.counter-icons{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0 0;
+    border-bottom: 1px solid black;
+    padding-bottom: 40px;
+}
+.counter-cont{
+    text-align: center;
+}
+.counter-cont > ol{
+    margin: 10px 0 0;
+}
+.counter-cont > li{
+    font-size: 32px;
+}
+.counter-cont > h3 {
+    text-transform: uppercase;
+    font-size: 1rem;
+    margin: 5px 0 0;
+}
+/* POPULAR-TOUR-SECTION */
+.popular-tour-section{
+    margin: auto;
+    max-width: 863px;
+}
+.popular-tour-title{
+    width: max-content;
+    margin: auto;
+    text-align: center;
+    padding: 5% 0 0;
+}
+.popular-tour-title > h4{
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+.popular-tour-title > h3 {
+    text-transform: capitalize;
+    font-size: 2rem;
 }
