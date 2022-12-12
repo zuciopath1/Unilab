@@ -199,3 +199,13 @@ const dataAraay = [
 // modal.addEventListener('click', removeModal);
 
 
+// const URL = "https://reqres.in/api/products/3";
+
+// async function getDataFromApi(URL) {
+// const response = await fetch(URL);
+// let data = await response.json();
+// console.log(data);
+// }
+
+// getDataFromApi(URL);
+
