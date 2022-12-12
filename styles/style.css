@@ -472,7 +472,7 @@
 }
 /* BOOK NOW */
 .book-now{
-    background-image: url(/images/bg/mountains-bg.png);
+    background-image: url(images/bg/mountains-bg.png);
     height: 500px;
     background-position: bottom;
     display: flex;
@@ -508,7 +508,7 @@
 .destination{
     height: 425px;
     width: 270px;
-    background-image: url(/images/destination/thailand.png);
+    background-image: url(images/destination/thailand.png);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -548,7 +548,7 @@
     justify-content: space-around;
     align-items: center;
 }
-.footer-fonts> li{
+.footer-fonts> li a{
     color: #FFF;
     opacity: 0.8;
     text-transform: capitalize;
