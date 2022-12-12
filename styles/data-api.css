@@ -1,6 +1,5 @@
-#data-api{
+.cards{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
 }
 .data-api > img{
