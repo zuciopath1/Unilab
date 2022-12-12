@@ -8,6 +8,9 @@
     .header{
         padding: 25px 60px !important;
     }
+    .footer-cont{
+        flex-wrap: wrap !important;
+    }
 }
 /* MEDIA 768PX */
 @media (max-width:768px){
