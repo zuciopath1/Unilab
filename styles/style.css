@@ -385,7 +385,7 @@
 
 .discount-section{
     margin: 50px 0 0;
-    background-image: url(/images/bg/surfer-bg.png);
+    background-image: url(images/bg/surfer-bg.png);
     height: 350px;
     display: flex;
     flex-direction: column;
