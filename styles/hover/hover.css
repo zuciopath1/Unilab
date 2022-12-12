@@ -5,6 +5,10 @@
     opacity: 0.7;
     transform: translateY(10%);
 }
+.package-card-rltv :hover + .package-card-absolute{
+        opacity: 1;
+        transition: all 1000ms ease-in-out
+}
 /* .booking-container > p:hover{
     transition: 0.2s;
     transition-timing-function: linear;

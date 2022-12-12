@@ -84,3 +84,116 @@ function removeModal() {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ==============================================================
+const dataAraay = [
+  {
+      cardId:1,
+      CardTitle: 'flight booking',
+      Context: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
+      cardImage: 'images/travel-photos/airplane.png',
+  },
+  {
+      cardId: 2,
+      CardTitle: 'hotel & resort booking',
+      Context: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
+      cardImage: 'images/travel-photos/resort.png',
+  },
+  {
+      cardId: 3,
+      CardTitle: 'family trip planner',
+      Context: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
+      cardImage: 'images/travel-photos/family-trip.png',
+  },
+  {
+    cardId: 4,
+    CardTitle: 'cruise tour',
+    Context: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
+    cardImage: 'images/travel-photos/cruise.png',
+  },
+  {
+    cardId: 5,
+    CardTitle: 'fire camp',
+    Context: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
+    cardImage: 'images/travel-photos/fire-camp.png',
+  },
+  {
+    cardId: 6,
+    CardTitle: 'corporate holidays',
+    Context: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
+    cardImage: 'images/travel-photos/corporate-holidays.png',
+  },
+]
+// const wrapper = document.querySelector('.travel-options-main-cont')
+// const wrapperModal = document.querySelector('.wrapper-modal')
+// const modal = document.querySelector('.modal');
+// const modalBtn = document.querySelector('.modalBtn');
+
+
+// function renderCards(arr,path){
+//   arr.forEach(element => {
+//     const hotServices = document.createElement('div')
+//     const modal = document.createElement('div')
+//     modal.setAttribute('class','modal')
+//       const card = document.createElement('div')
+//       card.setAttribute('class','card')
+     
+      
+
+//       const cardImg = document.createElement('img')
+//       cardImg.setAttribute('src',element.cardImage)
+//       const cardTitle = document.createElement('h3')
+//       cardTitle.setAttribute('class','card-title')
+//       cardTitle.textContent = element.CardTitle
+//       const context = document.createElement('h4')
+//       context.setAttribute('class','context')
+//       context.textContent = element.Context
+      
+
+//       // wrapper.append(hotServices)
+//       // hotServices.append(cardImg)
+//       card.append(cardImg,cardTitle,context)
+//       modal.append(card)
+//       path.append(modal)
+      
+//       wrapper.append(cardImg)
+      
+      
+    
+//   });
+// }
+// renderCards(dataAraay,wrapperModal,wrapper)
+
+// document.addEventListener('click', function (multimodal) {
+//   if ( multimodal.target.classList.contains( 'modalBtn' ) ) {
+//     showModal();
+//   }
+//   if ( multimodal.target.classList.contains( 'modal' ) ) {
+//     removeModal();
+//   }
+// }, false);
+
+// function showModal() {
+//   document.querySelector('.modal').style.display = "flex";
+// }
+
+// function removeModal() {
+//   document.querySelector('.modal').style.display = "none";
+// }
+
+
+// wrapper.addEventListener('click', showModal);
+// modal.addEventListener('click', removeModal);
