@@ -11,6 +11,9 @@
     .footer-cont{
         flex-wrap: wrap !important;
     }
+    .counter-icons{
+        flex-wrap: wrap !important;
+    }
 }
 /* MEDIA 768PX */
 @media (max-width:768px){

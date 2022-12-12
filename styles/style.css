@@ -447,6 +447,7 @@
     margin: 50px 0 0;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 30px;
 }
 .review-title > h3{
