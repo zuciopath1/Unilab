@@ -197,3 +197,5 @@ const dataAraay = [
 
 // wrapper.addEventListener('click', showModal);
 // modal.addEventListener('click', removeModal);
+
+
