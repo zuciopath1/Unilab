@@ -87,14 +87,13 @@ const dataAraay = [
     cardImage: 'images/travel-photos/corporate-holidays.png',
   },
 ]
+
+// MODAL
 const wrapper = document.querySelector('.travel-options-main-cont')
 const wrapperModal = document.querySelector('.wrapper-modal')
 
-
 function renderCards(arr,path){
   arr.forEach(element => {
-
- 
       const card = document.createElement('div')
       card.setAttribute('class','card')
       const modall = document.createElement('div')
@@ -115,11 +114,7 @@ function renderCards(arr,path){
       path.append(card)
       modall.append(card)
       wrapperModal.append(modall)
-      
-      wrapper.append(wrapperModal)
-      
-      
-    
+      wrapper.append(wrapperModal)    
   });
 }
 renderCards(dataAraay,wrapper);
