@@ -48,56 +48,6 @@ buttons.forEach(button => {
 // 
 //
 
-const modal = document.querySelector('.modal');
-const modalBtn = document.querySelector('.modalBtn');
-
-
-// const bkContEle = document.querySelectorAll('.booking-container'); // Get all container in an array
-
-// const getTextEle = bkContEle[3].getElementsByClassName('modal-text')[0];
-
-// const txt = document.createTextNode("Changin text even a more secure way to protect from XSS attacks");
-// getTextEle.replaceWith(txt);
-
-
-
-modalBtn.addEventListener('click', showModal);
-modal.addEventListener('click', removeModal)
-
-
-
-document.addEventListener('click', function (multimodal) {
-  if ( multimodal.target.classList.contains( 'modalBtn' ) ) {
-    showModal();
-  }
-  if ( multimodal.target.classList.contains( 'modal' ) ) {
-    removeModal();
-  }
-}, false);
-
-function showModal() {
-  document.querySelector('.modal').style.display = "flex";
-}
-
-function removeModal() {
-  document.querySelector('.modal').style.display = "none";
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // ==============================================================
 const dataAraay = [
   {
@@ -137,75 +87,45 @@ const dataAraay = [
     cardImage: 'images/travel-photos/corporate-holidays.png',
   },
 ]
-// const wrapper = document.querySelector('.travel-options-main-cont')
-// const wrapperModal = document.querySelector('.wrapper-modal')
-// const modal = document.querySelector('.modal');
-// const modalBtn = document.querySelector('.modalBtn');
+const wrapper = document.querySelector('.travel-options-main-cont')
+const wrapperModal = document.querySelector('.wrapper-modal')
 
 
-// function renderCards(arr,path){
-//   arr.forEach(element => {
-//     const hotServices = document.createElement('div')
-//     const modal = document.createElement('div')
-//     modal.setAttribute('class','modal')
-//       const card = document.createElement('div')
-//       card.setAttribute('class','card')
-     
+function renderCards(arr,path){
+  arr.forEach(element => {
+
+ 
+      const card = document.createElement('div')
+      card.setAttribute('class','card')
+      const modall = document.createElement('div')
+      modall.setAttribute('class','modal')
       
 
-//       const cardImg = document.createElement('img')
-//       cardImg.setAttribute('src',element.cardImage)
-//       const cardTitle = document.createElement('h3')
-//       cardTitle.setAttribute('class','card-title')
-//       cardTitle.textContent = element.CardTitle
-//       const context = document.createElement('h4')
-//       context.setAttribute('class','context')
-//       context.textContent = element.Context
-      
+      const cardImg = document.createElement('img')
+      cardImg.setAttribute('src',element.cardImage)
+       const cardTitle = document.createElement('h3')
+        cardTitle.setAttribute('class','card-title')
+        cardTitle.textContent = element.CardTitle
+        const context = document.createElement('h4')
+        context.setAttribute('class','context')
+        context.textContent = element.Context
+  
 
-//       // wrapper.append(hotServices)
-//       // hotServices.append(cardImg)
-//       card.append(cardImg,cardTitle,context)
-//       modal.append(card)
-//       path.append(modal)
+      card.append(cardImg,cardTitle,context)
+      path.append(card)
+      modall.append(card)
+      wrapperModal.append(modall)
       
-//       wrapper.append(cardImg)
+      wrapper.append(wrapperModal)
       
       
     
-//   });
-// }
-// renderCards(dataAraay,wrapperModal,wrapper)
+  });
+}
+renderCards(dataAraay,wrapper);
 
-// document.addEventListener('click', function (multimodal) {
-//   if ( multimodal.target.classList.contains( 'modalBtn' ) ) {
-//     showModal();
-//   }
-//   if ( multimodal.target.classList.contains( 'modal' ) ) {
-//     removeModal();
-//   }
-// }, false);
-
-// function showModal() {
-//   document.querySelector('.modal').style.display = "flex";
-// }
-
-// function removeModal() {
-//   document.querySelector('.modal').style.display = "none";
-// }
-
-
-// wrapper.addEventListener('click', showModal);
-// modal.addEventListener('click', removeModal);
-
-
-// const URL = "https://reqres.in/api/products/3";
-
-// async function getDataFromApi(URL) {
-// const response = await fetch(URL);
-// let data = await response.json();
-// console.log(data);
-// }
-
-// getDataFromApi(URL);
-
+wrapperModal.addEventListener('click', function(e){
+  let parent = e.target.parentElement;
+  let grandParenet = parent.parentElement
+  grandParenet.classList.toggle('active');
+})
