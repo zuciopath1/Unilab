@@ -385,7 +385,7 @@
 
 .discount-section{
     margin: 50px 0 0;
-    background-image: url(images/bg/surfer-bg.png);
+    background-image: url(/images/bg/surfer-bg.png);
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -473,7 +473,7 @@
 }
 /* BOOK NOW */
 .book-now{
-    background-image: url(images/bg/mountains-bg.png);
+    background-image:url(/images/bg/mountains-bg.png);
     height: 500px;
     background-position: bottom;
     display: flex;
@@ -507,28 +507,30 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.destination{
+.destination-abslt{
     height: 425px;
     width: 270px;
-    background-image: url(images/destination/thailand.png);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
+    position: relative;
 }
-.title-arrow-btn{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+.destinations-name-price{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
 }
-.sorry-forthemess >h4{
+.destinations-name-price >h3{
     font-size: 30px;
     color: #FFF;
     text-transform: capitalize;
 }
-.sorry-forthemess >h5{
+.destinations-name-price >h4{
     color: #FFF;
 }
-.title-arrow-btn > span{
+.destinations-arrowbtn{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+}
+.destinations-arrowbtn > span{
     background-color: #08AEEA;
     padding: 15px;
     border-radius: 50%;
