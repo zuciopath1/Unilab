@@ -4,8 +4,8 @@ fetch('https://fakestoreapi.com/products').then((data) => {
 }).then((completeData)=>{
     let data1 = "";
     completeData.map((values)=>{
-        data1 +=` <  <div class="data-api">
-        <h1 class="fake-title">title${values.title}</h1>
+        data1 +=`<div class="data-api">
+        <h1 class="fake-title">${values.title}</h1>
         <img src="${values.image}" alt="img">
         <p>${values.description}</p>
         <p class="category">${values.category}</p>
@@ -14,5 +14,5 @@ fetch('https://fakestoreapi.com/products').then((data) => {
     });
     document.querySelector(".cards").innerHTML = data1;
 }).catch((err)=>{
-    console.log(err);
+    return(err);
 });

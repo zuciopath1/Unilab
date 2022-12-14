@@ -206,7 +206,7 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
 }
 .card{
     width: 265px;
@@ -315,9 +315,10 @@
 .counter-icons{
     display: flex;
     justify-content: space-around;
-    margin: 50px 0 0;
     border-bottom: 1px solid black;
-    padding-bottom: 40px;
+    padding: 30px;
+    align-items: center;
+    gap: 20px;
 }
 .counter-cont{
     text-align: center;
@@ -357,6 +358,7 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 20px;
 }
 .package-card-rltv{
     position: relative;
@@ -374,6 +376,7 @@
 .package-card{
     text-align: center;
     box-shadow: 0 20px 10px rgb(0 0 0 / 10%);
+    height: 370px;
 }
 .package-card > h4{
     margin: 10px 10px;
@@ -415,6 +418,7 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: 395px;
+    gap: 10px;
 }
 #email-input{
     padding: 10px;
@@ -520,6 +524,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 30px;
 }
 .destination-abslt{
     height: 425px;
@@ -566,11 +571,24 @@
     justify-content: space-around;
     align-items: center;
 }
-.footer-fonts> li a{
+/* .footer-fonts{
+    text-align: center;
+} */
+.footer-fonts > h3{
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.footer-fonts > li{
+    margin: 10px 0 0;
+}
+.footer-fonts > li > a{
     color: #FFF;
     opacity: 0.8;
     text-transform: capitalize;
-    margin: 10px 10px;
+}
+.footer-subscribe{
+    margin: 25px 0 0;
 }
 .footer-subscribe > h4{
     font-size: 16px;
@@ -580,7 +598,7 @@
 .footer-input-button{
     display: flex;
     justify-content: center;
-    max-width: 395px;
+    width: 395px;
 }
 #footer-email{
     padding: 15px;
@@ -588,7 +606,8 @@
     border: none;
 }
 #footer-submit{
-    background-color: #08AEEA;
+    background-color: #08ead6;
     padding: 15px;
     cursor: pointer;
+    border: none;
 }

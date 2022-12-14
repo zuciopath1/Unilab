@@ -47,6 +47,11 @@
         gap: 40px;
     }
 }
+@media (max-width:420px){
+    .footer-input-button{
+        width: 270px !important;
+    }
+}
 /* MEDIA 320PX */
 @media (max-width:320px){
     .discover-country{
@@ -66,5 +71,13 @@
     }
     .price-bg{
         top: 30% !important;
+    }
+    .footer-cont{
+        gap: 20px !important;
+        flex-direction: column;
+        text-align: center !important;
+    }
+    .footer-input-button{
+        width: 220px !important;
     }
 }

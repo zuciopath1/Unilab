@@ -2,6 +2,9 @@
     display: flex;
     flex-wrap: wrap;
 }
+.data-api{
+    width: 350px;
+}
 .data-api > img{
     width: 300px;
 }
