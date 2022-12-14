@@ -51,37 +51,31 @@ buttons.forEach(button => {
 // ==============================================================
 const dataAraay = [
   {
-      cardId:1,
       CardTitle: 'flight booking',
       Context: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
       cardImage: 'images/travel-photos/airplane.png',
   },
   {
-      cardId: 2,
       CardTitle: 'hotel & resort booking',
       Context: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
       cardImage: 'images/travel-photos/resort.png',
   },
   {
-      cardId: 3,
       CardTitle: 'family trip planner',
       Context: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
       cardImage: 'images/travel-photos/family-trip.png',
   },
   {
-    cardId: 4,
     CardTitle: 'cruise tour',
     Context: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
     cardImage: 'images/travel-photos/cruise.png',
   },
   {
-    cardId: 5,
     CardTitle: 'fire camp',
     Context: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
     cardImage: 'images/travel-photos/fire-camp.png',
   },
   {
-    cardId: 6,
     CardTitle: 'corporate holidays',
     Context: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.',
     cardImage: 'images/travel-photos/corporate-holidays.png',
