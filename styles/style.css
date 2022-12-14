@@ -394,7 +394,7 @@
 
 .discount-section{
     margin: 50px 0 0;
-    background-image: url(../images/bg/mountains-bg.png);
+    background-image: url(./images/bg/mountains-bg.png);
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -482,7 +482,7 @@
 }
 /* BOOK NOW */
 .book-now{
-    background-image:url(../images/bg/mountains-bg.png);
+    background-image:url(./images/bg/mountains-bg.png);
     height: 500px;
     background-position: bottom;
     display: flex;
