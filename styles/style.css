@@ -357,7 +357,6 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    height: 350px;
 }
 .package-card-rltv{
     position: relative;
@@ -394,7 +393,7 @@
 
 .discount-section{
     margin: 50px 0 0;
-    background-image: url(./images/bg/mountains-bg.png);
+    background-image: url(../images/bg/surfer-bg.png);
     height: 350px;
     display: flex;
     flex-direction: column;
@@ -411,9 +410,15 @@
     margin-top: 20px;
     font-size: 18px;
 }
+.input-button{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 395px;
+}
 #email-input{
     padding: 10px;
-    width: 395px;
+    width: 100%;
     border-radius: 25px;
     border: 2px solid #FFF;
     background: none;
@@ -572,9 +577,14 @@
     color: white;
     margin-bottom: 10px;
 }
+.footer-input-button{
+    display: flex;
+    justify-content: center;
+    max-width: 395px;
+}
 #footer-email{
     padding: 15px;
-    width: 340px;
+    width: 100%;
     border: none;
 }
 #footer-submit{
