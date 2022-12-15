@@ -113,8 +113,9 @@ function renderCards(arr,path){
 }
 renderCards(dataAraay,wrapper);
 
-wrapperModal.addEventListener('click', function(e){
-  let parent = e.target.parentElement;
-  let grandParenet = parent.parentElement
-  grandParenet.classList.toggle('active');
+const modal = document.querySelectorAll('.modal')
+modal.forEach( (elem) => {
+  elem.addEventListener('click',() => {
+    elem.classList.toggle('active')
+  })
 })
