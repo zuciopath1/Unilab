@@ -2,9 +2,9 @@
     display: flex;
     flex-wrap: wrap;
 }
-.data-api{
-    width: 350px;
-}
-.data-api > img{
+.card{
     width: 300px;
+}
+.card > img{
+    width: 100%;
 }
